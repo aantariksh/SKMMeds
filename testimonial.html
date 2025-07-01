@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>SKM Meds</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .teamhero-section {
+      position: relative;
+      height: 40vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .teamhero-section img {
+      width: 100%;
+      display: block;
+    }
+
+    .teamhero-text {
+      position: absolute;
+      z-index: 2;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }    
+
+    .teamhero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.65); /* dark overlay */
+      z-index: 1;
+    }
+
+    .testimonial-item {
+      padding: 15px;
+      border: 1px solid #8ac1f9;
+      border-radius: 10px;
+    }
+  </style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:anukaulin@yahoo.com">anukaulin@yahoo.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+44 7817 827780</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <h1 class="sitename">SKM Meds</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="testimonial.html" class="active">Testimonials</a></li>
+          
+            <li class="dropdown">
+              <a href="ucat.html"><span>UCAT</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="ucat.html">UCAT 1-1 Tutor</a></li>
+                <li><a href="ucat.html">UCAT Online Course</a></li>
+                <li><a href="ucat.html">UCAT Question Bank</a></li>
+                <li><a href="ucat.html">Regular Homework Sessions</a></li>
+                <li><a href="ucat.html">Interactive UCAT Sessions</a></li>
+              </ul>
+            </li>
+          
+            <li class="dropdown">
+              <a href="interview.html"><span>Interview</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="interview.html">MMI Circuit Weekend Course</a></li>
+                <li><a href="interview.html">MMI Regular Teaching</a></li>
+                <li><a href="interview.html">Panel Interview Weekend Course</a></li>
+                <li><a href="interview.html">Panel Interview Regular Teaching</a></li>
+                <li><a href="interview.html">Australian Medical Interview 1-1</a></li>
+                <li><a href="interview.html">Australian Dental Interview 1-1</a></li>
+                <li><a href="interview.html">Pharmacy 1-1</a></li>
+                <li><a href="interview.html">Dental Hygiene and Therapy 1-1</a></li>
+                <li><a href="interview.html">Interview Courses for Medical Graduates</a></li>
+                <li><a href="interview.html">Interview Courses for Dentistry Graduates</a></li>
+              </ul>
+            </li>
+          
+            <li class="dropdown">
+              <a href="test.html"><span>Test</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="test.html">IELTS</a></li>
+              </ul>
+            </li>
+          
+            <li class="dropdown">
+              <a href="personal.html"><span>Personal Statement</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="personal.html">Medicine PS</a></li>
+                <li><a href="personal.html">Dentistry PS</a></li>
+                <li><a href="personal.html">Pharmacy PS</a></li>
+                <li><a href="personal.html">Dental Hygiene / Therapy PS</a></li>
+              </ul>
+            </li>
+          
+            <li class="dropdown">
+              <a href="overseas.html"><span>Overseas Exam</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="overseas.html">ORE</a></li>
+                <li><a href="overseas.html">PLAB</a></li>
+                <li><a href="overseas.html">SJT-EU Students</a></li>
+                <li><a href="overseas.html">Pharmacy</a></li>
+              </ul>
+            </li>
+          
+            <li class="dropdown">
+              <a href="resource.html"><span>Resources</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="resource.html">Free UCAT Questions</a></li>
+                <li><a href="resource.html">Free Dentistry MMI</a></li>
+                <li><a href="resource.html">Free Medicine MMI</a></li>
+                <li><a href="resource.html">Free Pharmacy Questions</a></li>
+                <li><a href="resource.html">Free Dental Hygiene / Therapy Questions</a></li>
+              </ul>
+            </li>
+          </ul>          
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <!-- <a class="cta-btn d-none d-sm-block" href="#appointment">Contact Us</a> -->
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Testimonials</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Hear directly from our students and parents about their SKM experience. <br>
+          Their success stories reflect our commitment to personalised guidance, expert teaching, and real results.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Rohan Patel
+              </h3>
+              <h4>
+                Bath
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Dr. Kaul has been invaluable to my medicine application, providing her excellent advice and guidance regarding my
+            personal statement, interview technique and academic subjects. Having started as quite an introvert individual who
+            was apprehensive to open up, Dr. Kaul quickly got me to a point where I can now speak confidently on a wide range of
+            topics, both medical and non-medical. This experience has helped me not only in my application, but also has made me
+            overall a much more confident and outgoing person, life skills which in my opinion will serve me well in the future.
+            I cannot thank Dr. Kaul enough for all her hard work and dedication, all of which has resulted in me getting an
+            offer from my dream medicine course, at Birmingham!
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Hritika
+              </h3>
+              <h4>
+                London
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Dr. Kaul is very lovely, she gives honest reviews on your work and explains how you can improve in the areas you
+            aren't doing well in, she is a great tutor overall and also a great friend.
+            <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+        </div>
+
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr. Tabinda Iftikhar
+              </h3>
+              <h4></h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I would highly recommend Dr. Kaul to anyone preparing for UCAT and interview for medicine. She is very devoted and
+            honest to her students. I literally felt that she took all the stress of preparation. My son developed confidence
+            and was ready to take the challenge of the interview. Unlike others she is not money minded but wants the best for
+            her students. I will recommend her to everyone in my area in my friends group
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr Arshia Mohammadi, Dr Zeeshan Syed
+              </h3>
+              <h4>
+                None
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            It's our pleasure to recommend Dr. Kaul for preparation of Medicine interviews for UK Universities. We found her to
+            be professional, dedicated and at the same time supportive to a teenager's mind. She tailors the preparation as per
+            individual need and also pushes the limits to deal with pressure. We are happy the way she guided our son to secure
+            place in multiple universities.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Hana Hashim
+              </h3>
+              <h4>
+                Manchester
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I did interview preparations with Dr. Kaul for my university interview at leeds university for Dental Hygiene and
+            Therapy in 2020. I can honestly say, without her help I wouldn't have got an offer. The time and dedication she puts
+            into each and every one of her students is admirable, aiding you as your own mother would. Taking hours out of her
+            personal time to practice different techniques and going through each and every possible question and scenario that
+            could come up. 100% recommend to everyone.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr. Komal
+              </h3>
+              <h4>
+                Manchester
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I studied with Dr. Kaul together for the ORE exam, she is an excellent teacher who has since remained my very good
+            friend. Alongside being hardworking, I can also vouch for her dedication- always putting her students above herself,
+            and going above and beyond. Forever grateful.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Fateh
+              </h3>
+              <h4>
+                Spain
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I am a final year dentistry student in Spain. I got some coaching for applying to Dental Foundation Training in UK
+            from Dr. Kaul last year. It was an excellent experience and it has helped me tremendously. Dr. Kauls coaching
+            covered very practical and relevant topics for my preparation. She made me think and reflect on the challenges and
+            scenarios that are usually asked in the Situational Judgment Test and the interviews. Her coaching boosted my
+            confidence and I performed well in the SJT and the interview. I will always be grateful to Dr. Kaul.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Ella
+              </h3>
+              <h4>
+                London
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Dr. Kaul is an excellent tutor who works really hard to bring out the best in me so I can achieve the best UCAT
+            score I possibliy can. She has believed in me and encouraged me to work harder.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Charvi Bhargava
+              </h3>
+              <h4>
+                Essex
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Dr. Kaul has been a great help with my medicine interview preparation. She is hard working and went through various
+            content and types of questions with me thoroughly. I am incredibly thankful for all the support and the confidence
+            her classes, especially her interactive mock group interview sessions gave me. It allowed me to reflect and improve
+            upon myself, whilst being in contact with students and that were in the same boat as me. All in all it is due to her
+            efforts and dedication that I was able to go into the interview confidently and I was able to get into medicine.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Sunil
+              </h3>
+              <h4>
+                Liverpool
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Thank you so much Dr Kaul for the help you gave to prepare me for the MMIs. You make me go thorugh a wide variety of
+            station types together to make sure I'd be ready for anything that would come up in the real thing. The practise I
+            had and feedback I received were instrumental in improving my fluency and technique at the interview. You were so
+            motivating which helped give me the confidence to finally succeed!
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr. Kiran Gill
+              </h3>
+              <h4>
+                Middlesbrough
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            My son is a final year student in Spain. Last year my son had to prepare for his SJT and interview for the
+            foundation training. He did a two month course with Dr Kaul. He has done well in both the exams. When he started the
+            course he was not so confident. After doing the course I noticed an extreme improvement in his confidence as well as
+            understanding. He immensely enjoyed the whole session. It helped him a lot. Dr Kaul made sure that my son understood
+            everything and has a very good way of teaching. We are fully satisfied with our son's performance after doing this
+            course with her.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr Jeff Handle
+              </h3>
+              <h4>
+                Bath
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Evie got into Hull York. We are absolutely delighted and very grateful for your help. It made a huge difference. The
+            Interview Practice that Anu gave our daughter was superb. She covered all the relevant topics and was a great
+            teacher. Our daughter has three interviews and was offered a place following each one. We are very grateful to Anu
+            and would highly recommend her to anyone who is applying to medical school.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Harina Soni
+              </h3>
+              <h4>
+                Manchester
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I initially approached Dr Kaul, with no knowledge as to how I would get into medical school. I had already attempted
+            once. Dr Kaul was the angel who brought back my confidence and hope. I was given such thorough support and guidance
+            throughout my medical preparation that enabled me to go from 580 Band 3 in my first attempt at the UKCAT, to 670
+            Band 1 after receiving Dr Kaul's coaching. As well as that, I really appreciate all the help I received whilst
+            writing my personal statement and throughout my interview preparation. With the advice and guidance I received, I
+            was able to get into med school and pursue my dream of becoming a doctor, something that was only possible with Dr
+            Kaul's teaching.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Jamie
+              </h3>
+              <h4>
+                Australia
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Hi Dr. Kaul I was accepted into both Griffith university in Queensland and Adelaide University for dentistry! Thank
+            you for all your help. Hope u and your family are well.❤️
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Noor Hasnain
+              </h3>
+              <h4>
+                Manchester
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Very professional and organised classes.Highly recommended.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr. Ranjit
+              </h3>
+              <h4>
+                Australia
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I am very grateful for your sincere support for helping our son achieve the best of his potential. I am impressed
+            with your excellent work ethic and how you took him under your wing and balanced his UCAT preparation with his year
+            12 preparation.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Kinnes
+              </h3>
+              <h4>
+                Australia
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            We both are greatful for your genuine encouragement, support & teaching; which undoubtedly helped Advait at a
+            difficult time in his life. You were so patient, kind and caring. You often went out of your way to accomodate his
+            conflicting academic demands and needs. We know you will be genuinely pleased for him. Our thanks and prayers are
+            always for you.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Dr. Gagan
+              </h3>
+              <h4>
+                Australia
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Garv finally after a lot of hustle and bustle took the UCAT exam and got a reasonable good score. I really want to
+            say a big thanks to you for all your help and support
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Mrs Sheena
+              </h3>
+              <h4>
+                London
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Thank you and appreciate all your hardwork and effort which really helped. My Daughter is really pleased.
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Adi
+              </h3>
+              <h4>
+                Australia
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            I absolutely wouldn't have done it without you who always pushed me with a big smile and went above and beyond to
+            give me all the tools and tactics to succeed I'm really grateful I got to be one of your students who had such kind,
+            heartfelt support from someone who valued me this much You keep being you!!!
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Siddhart .D
+              </h3>
+              <h4>
+                Reading
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            The medicine application process can be so overwhelming and without proper guidance and support its easy to get lost
+            in it. Thankfully I sought out to Dr Kaul who dedicated her full attention in improving my interview skills and
+            tuning my personal statement. Being a naturally quite introverted individual she has helped me come out of my shell
+            and build the confidence I needed to fulfil my potential in interviews and to articulate my speech . In 6 months I
+            definitely had seen a massive improvement in my speaking abilities and knowledge. I feel incredibly grateful to have
+            had Dr Kaul train me not to just pass the interview but to teach me important life skills to go on and become a
+            successful doctor. Now I am proud to say that I have secured a medical school offer and this would've not been
+            possible without her utmost support. Thank you SKM meds!
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Sanjana S
+              </h3>
+              <h4>
+                Barrow in Furness
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Having been rejected from medical school the first time I applied I had lost a lot of self confidence, Dr Kaul not
+            only restored that confidence within me but made me a better person. She guided me through all the aspects of the
+            application process, at first supporting me in my preparation for the ucat, then my personal statement and finally
+            interviews. Coming from a small town in the north west of England where the help and resources were very limited in
+            school, turning to SKM meds was the best decision I ever made. Dr kaul has vast experience in this area and allowed
+            me to develop my interpersonal communication skills , which is an invaluable life skill. I cannot thank the team at
+            SKM meds enough for helping me turn my dream of studying at kings college London into a reality!
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+        
+        <div class="testimonial-item">
+          <div class="d-flex">
+            <div>
+              <h3>
+                Sheen D
+              </h3>
+              <h4>
+                London
+              </h4>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            </div>
+          </div>
+          <p><i class="bi bi-quote quote-icon-left"></i>
+            Hi Dr .Kaul I just wanted to thank you for your help throughout the med process. I've got offers from KCL and
+            Cambridge! 💞 I've just done my UCAT and I am so grateful to Dr Kaul for her help. She took me under her wing and
+            with her guidance and support I have managed to get 785 band 1! If it wasn't for Dr Kaul's vigorous training which
+            was balanced with warm encouragement, I most likely would've settled for a lower score. I was initially quite
+            nervous about the application process however with Dr Kaul's expertise, years of experience and abundance of
+            resources, I feel much more confident in my medical school application. So I'd like to say a big thank you to Dr
+            Kaul for helping with my UCAT and I can't wait to start preparing for interviews with her!
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">SKM Meds</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>7 beech grove</p>
+            <p>Heat bank lane,</p>
+            <p>Lancaster LA26AJ</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+44 7817 827780</span></p>
+            <p><strong>Email:</strong> <span>anukaulin@yahoo.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>UCAT</h4>
+          <ul>
+            <li><a href="ucat.html">UCAT 1-1 Tutor</a></li>
+            <li><a href="ucat.html">UCAT online course</a></li>
+            <li><a href="ucat.html">UCAT question bank</a></li>
+            <li><a href="ucat.html">Regular homework sessions</a></li>
+            <li><a href="ucat.html">Interactive UCAT sessions</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Personal Statement</h4>
+          <ul>
+            <li><a href="personal.html">Medicine PS</a></li>
+            <li><a href="personal.html">MMI Regular Teaching</a></li>
+            <li><a href="personal.html">Pharmacy PS</a></li>
+            <li><a href="personal.html">Dental Hygiene / Therapy PS</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Overseas Exam</h4>
+          <ul>
+            <li><a href="overseas.html">ORE</a></li>
+            <li><a href="overseas.html">PLAB</a></li>
+            <li><a href="overseas.html">SJT-EU Students</a></li>
+            <li><a href="overseas.html">Pharmacy</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="resource.html">Free UCAT Questions</a></li>
+            <li><a href="resource.html">Free Dentistry MMI</a></li>
+            <li><a href="resource.html">Free Medicine MMI</a></li>
+            <li><a href="resource.html">Free Pharmacy Questions</a></li>
+            <li><a href="resource.html">Free Dental Hygiene/ Therapy Questions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">SKM Meds</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://aantariksh.com/" target="_blank">Aantariksh Developers</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
